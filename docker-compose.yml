@@ -1,0 +1,6 @@
+version: '3.9'
+services:
+  mywhois:
+    image: anssi/fcsc2021-misc-mywhois:latest
+    ports:
+      - ${PORT}:80
